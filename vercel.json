@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/src/data/cropData.json", "destination": "/src/data/cropData.json" }
+    { "source": "/cropData.json", "destination": "/public/cropData.json" }
   ]
 }
