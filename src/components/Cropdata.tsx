@@ -25,7 +25,7 @@ const CropAverages: React.FC = () => {
 
   // useEffect hook to fetch data when the component mounts
   useEffect(() => {
-    fetch('public/cropData.json') 
+    fetch('/cropData.json') 
       .then(response => response.json())
       .then((data: CropData[]) => {
         const averageData = calculateAverages(data);
