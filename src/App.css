@@ -1,0 +1,17 @@
+.bodywarp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+.heading{
+    margin: auto;
+    font-size: 36px;
+    color: blue;
+    font-weight: 500;
+}
+.content{
+    display: flex;
+    gap: 30px;
+    padding: 30px 100px;
+}
