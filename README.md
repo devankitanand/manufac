@@ -78,6 +78,7 @@ yarn serve
 ![yeardata2](https://github.com/user-attachments/assets/b9c413b3-4d36-49b1-8716-477ac5806930)
 ![yeardat1](https://github.com/user-attachments/assets/034d377b-c1a7-41a4-81cd-5f6db413d689)
 ![mainmanufac](https://github.com/user-attachments/assets/6aeba386-f744-4a14-8e33-e473e398b433)
+![cropdata](https://github.com/user-attachments/assets/b98b6343-eccd-4920-9f34-b6523a0a90c6)
 
 
 ---
