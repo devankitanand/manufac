@@ -24,7 +24,7 @@ const Yeardata: React.FC = () => {
 
   // useEffect hook to fetch data when the component mounts
   useEffect(() => {
-    fetch('/src/data/cropData.json') // Adjust the path to match your folder structure
+    fetch('public/cropData.json') // Adjust the path to match your folder structure
       .then(response => response.json())
       .then((data: CropData[]) => {
         const processedData = processData(data);
