@@ -1,7 +1,7 @@
 
 # Manufac App
 
-Manufac App is a React-based application that utilizes Mantine for UI components and Vite for the build tool. The application displays crop data, including average yields and cultivation areas over the years.
+Manufac App is a React-based application that leverages Mantine for UI components and Vite for its build tool. This application provides an interface to display crop data, including average yields and cultivation areas over the years.
 
 ## Table of Contents
 
@@ -13,90 +13,80 @@ Manufac App is a React-based application that utilizes Mantine for UI components
 - [Folder Structure](#folder-structure)
 - [Technologies Used](#technologies-used)
 
-## Installation
-
-To get started, clone the repository and install the dependencies.
-
-```bash
-git clone https://github.com/yourusername/manufac-app.git
-cd manufac-app
-yarn install
-bash ```
-
-Usage
-To start the development server, run:
-
-bash
-yarn dev
-This will launch the Vite development server, and you can view the app in your browser at http://localhost:3000.
-
-Build
-To create a production build, run:
-
-bash
-yarn build
-This will generate optimized static files in the dist directory.
-
-Run
-To preview the production build, run:
-
-bash
-yarn serve
-This will start a local server to preview the production build at http://localhost:5000.
-
-Screenshots
-Add some screenshots of your app here.
-
-
-create a readme file for github about this project with clear instructions on how to build/run/start the project in the README.md. also leave space for screenshots
-Here's a README.mdfile with clear instructions on how to build, run, and start your project. I've also included placeholders for screenshots.
-
-markdown
-# Manufac App
-
-Manufac App is a React-based application that utilizes Mantine for UI components and Vite for the build tool. The application displays crop data, including average yields and cultivation areas over the years.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Build](#build)
-- [Run](#run)
-- [Screenshots](#screenshots)
-- [Folder Structure](#folder-structure)
-- [Technologies Used](#technologies-used)
+---
 
 ## Installation
 
-To get started, clone the repository and install the dependencies.
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/manufac-app.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd manufac-app
+   ```
+
+3. Install dependencies:
+   ```bash
+   yarn install
+   ```
+
+---
+
+## Usage
+
+To start the development server:
 
 ```bash
-git clone https://github.com/yourusername/manufac-app.git
-cd manufac-app
-yarn install
-Usage
-To start the development server, run:
-
-bash
 yarn dev
-This will launch the Vite development server, and you can view the app in your browser at http://localhost:3000.
+```
 
-Build
-To create a production build, run:
+- The development server will be available at: [http://localhost:3000](http://localhost:3000)
 
-bash
+---
+
+## Build
+
+To create a production-ready build:
+
+```bash
 yarn build
-This will generate optimized static files in the dist directory.
+```
 
-Run
-To preview the production build, run:
+- The optimized static files will be located in the `dist` directory.
 
-bash
+---
+
+## Run
+
+To preview the production build:
+
+```bash
 yarn serve
-This will start a local server to preview the production build at http://localhost:5000.
+```
+
+- The application will be accessible at: [http://localhost:5000](http://localhost:5000)
+
+---
+
+## Screenshots
+
+![yeardata3](https://github.com/user-attachments/assets/bb0790fc-82d7-44c6-9de2-7492aed7c49f)
+![yeardata2](https://github.com/user-attachments/assets/b9c413b3-4d36-49b1-8716-477ac5806930)
+![yeardat1](https://github.com/user-attachments/assets/034d377b-c1a7-41a4-81cd-5f6db413d689)
+![mainmanufac](https://github.com/user-attachments/assets/6aeba386-f744-4a14-8e33-e473e398b433)
 
 
-Folder Structure
+---
+
+## Folder Structure
+
+The project follows a structured directory layout:
+
+```
 manufac-app/
 ├── node_modules/
 ├── public/
@@ -111,11 +101,16 @@ manufac-app/
 ├── package.json
 ├── tsconfig.json
 ├── vite.config.ts
-Technologies Used
-React: JavaScript library for building user interfaces
+```
 
-TypeScript: Typed superset of JavaScript
+---
 
-Mantine: React component library for building UI
+## Technologies Used
 
-Vite: Frontend build tool
+- **React**: JavaScript library for building user interfaces.
+- **Mantine**: Component library for building UI.
+- **Vite**: Next-generation frontend tooling for fast builds and development.
+- **TypeScript**: Typed superset of JavaScript.
+
+---
+
